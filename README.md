@@ -60,7 +60,7 @@ Crie um arquivo chamado `.env` na raiz do projeto seguindo a estrutura de exempl
 PORT=3000
 PROXY_TOKEN=SuaChaveSecretaDeDesenvolvimento123
 URL_WEBSERVICE_ATUAL=https://suaempresa.com.br
-URL_WEBSERVICE_SUL=https://filiaissul.com.br
+URL_WEBSERVICE_SUL=https://outraempresa.com.br
 ```
 
 ### 4. Executando o servidor
@@ -87,3 +87,4 @@ pm2 start server.js --name "proxy-ssw"
 pm2 startup
 pm2 save
 ```
+Feito por Mário Bueno 👋 https://www.linkedin.com/in/mario-lucas-bueno/
